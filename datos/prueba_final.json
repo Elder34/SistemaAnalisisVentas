@@ -1,0 +1,23 @@
+
+[
+  {
+    "id_venta": "FINAL-JSON-001",
+    "fecha": "2026-07-12",
+    "sucursal": "GUATEMALA",
+    "codigo_producto": "P010",
+    "producto": "MONITOR",
+    "cantidad": 2,
+    "precio_unitario": 850.00,
+    "vendedor": "ANA GARCIA"
+  },
+  {
+    "id_venta": "FINAL-JSON-002",
+    "fecha": "2026-08-18",
+    "sucursal": "ZACAPA",
+    "codigo_producto": "P011",
+    "producto": "IMPRESORA",
+    "cantidad": 1,
+    "precio_unitario": 1250.00,
+    "vendedor": "LUIS MARTINEZ"
+  }
+]

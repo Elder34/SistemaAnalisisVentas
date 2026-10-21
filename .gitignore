@@ -1,0 +1,6 @@
+target/
+nbproject/private/
+*.class
+.env
+errores_procesamiento.txt
+reporte_analisis.txt

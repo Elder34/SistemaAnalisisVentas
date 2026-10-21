@@ -1,0 +1,14 @@
+[
+  {
+    "id_venta": "PRUEBA-JSON-001",
+    "fecha": "2026-10-21",
+    "sucursal": "ZACAPA",
+    "codigo_producto": "P001",
+    "producto": "COMPUTADORA",
+    "cantidad": 2,
+    "precio_unitario": 150.00,
+    "vendedor": "JUAN PEREZ"
+  
+]
+
+

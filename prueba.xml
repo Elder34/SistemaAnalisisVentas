@@ -1,0 +1,14 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ventas>
+    <venta>
+        <id_venta>PRUEBA-XML-001</id_venta>
+        <fecha>2026-10-21</fecha>
+        <sucursal>ZACAPA</sucursal>
+        <codigo_producto>P001</codigo_producto>
+        <producto>COMPUTADORA</producto>
+        <cantidad>2</cantidad>
+        <precio_unitario>150.00</precio_unitario>
+        <vendedor>JUAN PEREZ</vendedor>
+    </venta>
+</venta>
