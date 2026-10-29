@@ -1,17 +1,21 @@
 package com.ventas;
-
+import com.interfaz.ui.VentanaPrincipal;
 import com.ventas.processor.ArchivoProcessor;
 import com.ventas.report.ReporteErrores;
 import com.ventas.report.ReporteAnalisis;
-
 import java.io.IOException;
 import java.nio.file.Path;
 import java.sql.SQLException;
+import javax.swing.SwingUtilities;
 
 public class SistemaAnalisisVentas {
+    
 
     public static void main(String[] args) {
-
+{
+        SwingUtilities.invokeLater(() -> {
+            new VentanaPrincipal().setVisible(true);
+        });
         ArchivoProcessor procesador
                 = new ArchivoProcessor();
 
@@ -47,4 +51,5 @@ public class SistemaAnalisisVentas {
         }
     }
 
+}
 }

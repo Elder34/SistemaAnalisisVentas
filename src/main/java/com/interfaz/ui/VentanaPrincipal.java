@@ -130,11 +130,5 @@ public class VentanaPrincipal extends JFrame {
         };
         worker.execute();
     }
-    public static void main(String[] args) {
-    SwingUtilities.invokeLater(() -> {
-        VentanaPrincipal ventana = new VentanaPrincipal();
-        ventana.setVisible(true);
-    });
-}
 }
 
